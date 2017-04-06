@@ -3,6 +3,8 @@ project (Test)
 # The version number.
 set (Test_VERSION_MAJOR 0)
 set (Test_VERSION_MINOR 1)
+
+set(EXECUTABLE_OUTPUT_PATH "${CMAKE_BINARY_DIR}/bin")
  
 # configure a header file to pass some of the CMake settings
 # to the source code
